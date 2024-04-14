@@ -1,0 +1,45 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+/src/NewHardSkills/Lesson1.java
+/src/NewHardSkills/Lesson2.java
+/src/NewHardSkills/Lesson3.java
+/src/NewHardSkills/Lesson4.java
+/src/NewHardSkills/Lesson5.java
+/src/NewHardSkills/Lesson6.java
+/src/NewHardSkills/Lesson7.java
+/src/NewHardSkills/LesString.java
+/src/NewHardSkills/dog/
+/src/NewHardSkills/file/
+/src/NewHardSkills/hw/hw5/
+/src/NewHardSkills/hw1/
+/src/NewHardSkills/hw2/
+/src/NewHardSkills/hw4/
+/src/NewHardSkills/hw6/
+/src/NewHardSkills/solid/
