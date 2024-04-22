@@ -16,5 +16,54 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-api-5.10.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-engine-5.10.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-api-5.10.2-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-api-5.10.2-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-engine-5.10.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../junit5/junit-platform-engine-1.10.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../junit5/junit-platform-engine-1.10.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-api-5.10.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-engine-5.10.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-api-5.10.2-sources.jar!/" />
+          <root url="jar://$MODULE_DIR$/../junit5/junit-jupiter-engine-5.10.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../junit5/junit-platform-commons-1.10.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/../junit5/junit-platform-commons-1.10.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
