@@ -1,4 +1,4 @@
-package NewHardSkills;
+package newHardSkills;
 
 import java.util.Scanner;
 
@@ -62,7 +62,6 @@ public class StandartM {
             if ((num % 10) > x) {
                 x = num % 10;
             }
-            ;
             num /= 10;
         }
         return x;
@@ -91,7 +90,6 @@ public class StandartM {
         if (leftNum(a) == b % 10) {
             return true;
         }
-        ;
         return false;
     }
 

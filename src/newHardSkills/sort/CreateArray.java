@@ -1,4 +1,4 @@
-package NewHardSkills.Sort;
+package newHardSkills.sort;
 
 import java.util.ArrayList;
 
@@ -21,7 +21,7 @@ public class CreateArray {
     }
     public ArrayList<Integer> randomArrayList(int size, int range) {
         ArrayList<Integer> array = new ArrayList<>(size);
-        Integer x = 0;
+        int x;
         for (int i = 0; i < size; i++) {
             x = (int) (Math.random() * range);
             array.add(x);

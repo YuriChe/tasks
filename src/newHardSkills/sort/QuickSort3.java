@@ -1,4 +1,4 @@
-package NewHardSkills.Sort;
+package newHardSkills.sort;
 
 public class QuickSort3 extends QuickSort2 {
 

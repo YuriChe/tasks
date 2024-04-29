@@ -1,4 +1,4 @@
-package NewHardSkills.Sort;
+package newHardSkills.sort;
 
 public class SearchInt implements Search{
     @Override

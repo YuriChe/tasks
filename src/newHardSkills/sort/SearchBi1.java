@@ -1,4 +1,4 @@
-package NewHardSkills.Sort;
+package newHardSkills.sort;
 
 public class SearchBi1 implements SearchMethods{
     int[] arraySearch;

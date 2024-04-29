@@ -1,4 +1,4 @@
-package NewHardSkills.Sort;
+package newHardSkills.sort;
 
 import java.util.Arrays;
 
@@ -54,8 +54,8 @@ public class SortMerge2 {
         System.out.println("Вошли в цикл, количество итераций: " + arrayC.length);
         for (int i = 0; i < arrayC.length; i++) {
             if (positionA == arrayA.length) {
-                System.out.println(String.format("Сработало условие if positionA(%d) == arrayA.length(%d) ", positionA, arrayA.length));
-                System.out.println(String.format("Присвоение arrayC[%d](%d) arrayB[%d](%d)", i, arrayC[i], positionB, arrayB[positionB]));
+                System.out.printf("Сработало условие if positionA(%d) == arrayA.length(%d) %n", positionA, arrayA.length);
+                System.out.printf("Присвоение arrayC[%d](%d) arrayB[%d](%d)%n", i, arrayC[i], positionB, arrayB[positionB]);
                 arrayC[i] = arrayB[positionB];
                 System.out.println("Инкремент positionB, было: " + positionB + ", стало: " + positionB + 1);
                 positionB++;

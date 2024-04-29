@@ -1,6 +1,5 @@
-package NewHardSkills.Sort;
+package newHardSkills.sort;
 
-import java.util.HashSet;
 import java.util.TreeSet;
 
 public interface ISpec {

@@ -1,4 +1,4 @@
-package NewHardSkills.Sort;
+package newHardSkills.sort;
 
 public class SortMerge extends SortUnivers {
 
@@ -15,9 +15,7 @@ public class SortMerge extends SortUnivers {
         int mid = arr.length / 2;
         int[] arr1 = new int[mid];
         int[] arr2 = new int[arr.length - mid];
-        for (int i = 0; i < arr1.length; i++) {
-            arr1[i] = arr[i];
-        }
+        System.arraycopy(arr, 0, arr1, 0, arr1.length);
         int j = mid;
         for (int i = 0; i < arr2.length; i++) {
 //            System.out.println(arr2.length);

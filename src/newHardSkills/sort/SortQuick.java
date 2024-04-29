@@ -1,4 +1,4 @@
-package NewHardSkills.Sort;
+package newHardSkills.sort;
 
 public class SortQuick extends SortUnivers {
     @Override
@@ -23,7 +23,7 @@ public class SortQuick extends SortUnivers {
 
     private int partition(int[] arr, int low, int high) {
 
-        int pivotIndex = low + (high - low) / 2;;
+        int pivotIndex = low + (high - low) / 2;
         int pivot = arr[pivotIndex];
 
         int rightIndex = high;
